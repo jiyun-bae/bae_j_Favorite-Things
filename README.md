@@ -4,7 +4,8 @@
   <content><![CDATA[
 # ${1:Favaorite Things}
 
-Description: We need to create an app with 3 favorite things. Description of 3 things have to be in a database using PHP.
+Aim: We need to create an app with 3 favorite things. <br>
+Description of 3 things have to be in a database using PHP.
 
 ## Installation
 
@@ -14,8 +15,8 @@ SASS (https://sass-lang.com/install)
 ## Plan for Favorite Things
 
 AJAX(Asynchronous Javascript and XML) is a front-end technique for interactive web applications. AJAX is used with XML, HTML, CSS, and javascript. <br>
-PHP is a general-purpose scripting language especially suited to web development. <br>
-In this project, we create data using PHP and connect the database to js so we do not need to add more data in js. We can just add data in PHP without codes when we add contents, and it shows on our website. <br><br>
+PHP is a general-purpose scripting language especially suited to web development. <br><br>
+In this project, we create data using PHP and connect the database to js so we do not need to add more data in js. We can just add data in PHP without codes when we add contents, and it shows on our website. <br>
 With this functions, I used SASS modules for better CSS. Also, event delegation with AJAX is used and it works!
 
 ## Path for Favorite Things
@@ -27,6 +28,10 @@ With this functions, I used SASS modules for better CSS. Also, event delegation 
 5. Create includes files to connect PHP data
 6. Check insect if everything working and TA-da!
 
+## Usage
+
+
+
 ## Contributing
 
 1. Fork it!
@@ -34,6 +39,11 @@ With this functions, I used SASS modules for better CSS. Also, event delegation 
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+## Credits
+
+Dart Sass (1.27.0) <br>
+Virtualstudio (1.50)
 
 ## License
 
