@@ -1,0 +1,22 @@
+nav { 
+    margin: 0;
+    font-size: 16px;
+
+    .nav-item { 
+        display: inline-block;
+        margin: 0 10px;
+        background-color: #898b8a;
+
+        @include roundCorners(8px);
+        @include addPadding(5px 10px);
+
+        a { 
+            cursor: pointer; 
+            text-decoration: none; 
+            color: white;
+
+            &:hover { color: pink; }
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+.user-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user { 
+    // flex: 1;
+    @include addPadding(10px);
+
+    .user-title, .user-year, .user-director, .user-country { margin: 0; }
+
+    .user-title {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    img { 
+        max-width: 70%; 
+        border-radius: 6px 6px 6px 6px;
+    }
+
+}

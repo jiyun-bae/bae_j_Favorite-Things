@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Favorite Things</title>
+
+    <!-- this has to be a css file -->
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <main id="app">
+        <h1 class="hidden">Favorite Things</h1>
+
+        <!-- this is an HTML component -->
+        <nav class="main-nav">
+            <ul>
+                <li class="nav-item">
+                    <a class="lightbox" href="http://localhost:8887/bae_j_Favorite-Things/images/the%20other%20guys.jpg">item 1</a>
+                </li>
+
+                <li class="nav-item"><a class="lightbox" href="http://localhost:8887/bae_j_Favorite-Things/images/groundhog%20day.jpg">item 2</a></li>
+                <li class="nav-item"><a class="lightbox" href="http://localhost:8887/bae_j_Favorite-Things/images/idiots.jpg">item 3</a></li>
+            </ul>
+        </nav>
+        <!-- end component -->
+
+        <p>I chose comdedy films for my favorite things because I would like to work in film industry in the future.</p>
+
+        <h3><--Favortie Comedy films--></h3>
+
+        <!-- add a users section here -->
+        <section class="user-section">
+            <!-- <h1 class="hidden"></h1>
+            <h2 class="user-title"></h2>
+            <p class="user-year"></p>
+            <p class="user-director"></p>
+            <p class="user-country"></p>
+            <p class="user-description"></p> -->
+        </section>
+        <!-- end users section -->
+    </main>
+
+    <footer>j_bae@fanshaweonline.ca</footer>
+
+    <!-- template files here (these don't render) -->
+    <template id="user-template">
+        <div class="user">
+            <h1 class="hidden"></h1>
+            <img src="groundhog day.jpg" alt="user image">
+            <h2 class="user-title"></h2>
+            <p class="user-year"></p>
+            <p class="user-director"></p>
+            <p class="user-country"></p>
+            <p class="user-description"></p>
+        </div>
+    </template>
+    <!-- end templates -->
+
+    <!-- script files always go here -->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
