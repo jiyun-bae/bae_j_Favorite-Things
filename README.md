@@ -18,7 +18,7 @@ AJAX(Asynchronous Javascript and XML) is a front-end technique for interactive w
 PHP is a general-purpose scripting language especially suited to web development. <br><br>
 In this project, we create data using PHP and connect the database to js so we do not need to add more data in js. We can just add data in PHP without codes when we add contents, and it shows on our website. <br>
 With this functions, I used SASS modules for better CSS. Also, event delegation with AJAX is used and it works! <br><br>
-When I create a database in PHP, I used 6 columns which are title, biopic, year, director, country, and description. There are 3 different favorite films. <br>
+When I create a database in PHP, I used 6 columns which are title, biopic, year, director, country, and description. There are 3 different favorite comedy films. I chose film for my subject of favorite things because I would like to work in film industry in the future. Comedy is the genre that I am currenty learning from class:)<br>
 Overall, I used the structure from the class to create this project, and changed contents for my favorite things. PHP is created by myself with using MAMP. 
 
 ## Path for Favorite Things
