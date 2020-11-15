@@ -17,7 +17,8 @@ SASS (https://sass-lang.com/install)
 AJAX(Asynchronous Javascript and XML) is a front-end technique for interactive web applications. AJAX is used with XML, HTML, CSS, and javascript. <br>
 PHP is a general-purpose scripting language especially suited to web development. <br><br>
 In this project, we create data using PHP and connect the database to js so we do not need to add more data in js. We can just add data in PHP without codes when we add contents, and it shows on our website. <br>
-With this functions, I used SASS modules for better CSS. Also, event delegation with AJAX is used and it works! <br>
+With this functions, I used SASS modules for better CSS. Also, event delegation with AJAX is used and it works! <br><br>
+When I create a database in PHP, I used 6 columns which are title, biopic, year, director, country, and description. There are 3 different favorite films. <br>
 Overall, I used the structure from the class to create this project, and changed contents for my favorite things. PHP is created by myself with using MAMP. 
 
 ## Path for Favorite Things
