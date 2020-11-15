@@ -14,7 +14,7 @@ import { fetchData } from "./modules/TheDataMiner.js";
         let lightbox = document.querySelector(".lightbox");
     }
 
-    function retrieveProjectInfo() {
+    function retrieveProjectInfo(event) {
         // test for an ID
         if (!event.target.id) { return }
 
